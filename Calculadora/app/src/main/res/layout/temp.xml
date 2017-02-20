@@ -115,12 +115,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button5"
-        android:textSize="24sp"
-        android:minWidth="48dip"
         app:layout_constraintBaseline_toBaselineOf="@+id/button4"
-        android:layout_marginStart="8dp"
         app:layout_constraintLeft_toRightOf="@+id/button4"
-        android:layout_marginLeft="8dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="24sp"
+        android:minWidth="48dip" />
 
     <Button
         android:text="6"
@@ -181,30 +181,6 @@
         android:layout_marginLeft="8dp" />
 
     <Button
-        android:text="N"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonNeg"
-        android:textSize="24sp"
-        android:minWidth="48dip"
-        app:layout_constraintBaseline_toBaselineOf="@+id/buttonDivide"
-        android:layout_marginStart="8dp"
-        app:layout_constraintLeft_toRightOf="@+id/buttonDivide"
-        android:layout_marginLeft="8dp" />
-
-    <Button
-        android:text="/"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button19"
-        android:textSize="24sp"
-        android:minWidth="48dip"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button9"
-        android:layout_marginStart="8dp"
-        app:layout_constraintLeft_toRightOf="@+id/button9"
-        android:layout_marginLeft="8dp" />
-
-    <Button
         android:text="*"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -233,12 +209,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonPlus"
-        android:textSize="24sp"
-        android:minWidth="48dip"
         app:layout_constraintBaseline_toBaselineOf="@+id/buttonEquals"
         android:layout_marginStart="8dp"
         app:layout_constraintLeft_toRightOf="@+id/buttonEquals"
-        android:layout_marginLeft="8dp" />
+        android:layout_marginLeft="8dp"
+        android:textSize="24sp"
+        android:minWidth="48dip" />
 
     <Button
         android:text="."
